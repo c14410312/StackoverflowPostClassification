@@ -9,7 +9,7 @@ conn = psycopg2.connect(database="quiz_posts", user="dbutler", password="passwor
 #once connected, iterate over each row in csv file and insert it into
 #the database.
 
-df = pd.read_csv('../data/filtered_data_ready_for_app.csv')
+df = pd.read_csv('../data/filtered_cleaned_posts_no_frameworks_no_alt_lang.csv')
 
 cur = conn.cursor() #creates a curser required to insert 
 
