@@ -1,0 +1,4 @@
+CREATE TABLE java_topics(
+	id INT PRIMARY KEY NOT NULL,
+	name TEXT NOT NULL
+);

@@ -3,5 +3,6 @@ CREATE TABLE posts (
 	title VARCHAR,
 	body VARCHAR,
 	tags TEXT [],
-	answer VARCHAR
+	answer VARCHAR,
+	topic INTEGER
 );
